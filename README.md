@@ -44,7 +44,7 @@ Descarca cel mai recent fisier `PRAMGEN_Setup_X.X.exe` din [Releases](../../rele
 
 ## Actualizari
 
-La fiecare pornire, aplicatia verifica automat versiunile noi pe GitHub si afiseaza un banner de notificare.
+La fiecare pornire, aplicatia verifica automat versiunile noi pe GitHub. Daca este disponibila o versiune noua, apare un banner cu butonul **"Actualizeaza automat"** — aplicatia descarca instalatorul si porneste actualizarea fara a fi nevoie sa parasiti aplicatia manual.
 
 ## Contact
 

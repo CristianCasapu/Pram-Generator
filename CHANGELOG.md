@@ -1,6 +1,11 @@
 # Changelog — PRAMGEN
 
-## v1.8 (2025)
+## v1.8.2 (2026)
+- **Fix integritate**: manifest regenerat corect la fiecare build (v1.8/v1.8.1 afisau eroare de coruptie la pornire dupa actualizare)
+- **Actualizare automata**: buton "Actualizeaza automat" in bannerul de update — descarca si instaleaza noua versiune fara a parasi aplicatia
+- **Suite teste**: 168 teste automate (de la 109), acoperire noua: cloud sync, criptare, constante, comparare versiuni
+
+## v1.8 (2026)
 - **Cloud Sync**: sincronizare baza de date cu Google Drive si OneDrive (criptare AES-256)
 - **Licenta cloud**: valabila pe pana la 10 dispozitive pe acelasi cont cloud
 - **Generator licente**: tab nou "Licenta cloud" pentru generare cheie pe baza email
