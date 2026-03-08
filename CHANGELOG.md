@@ -1,5 +1,9 @@
 # Changelog — PRAMGEN
 
+## v1.8.3 (2026)
+- **Fix captcha PIN**: captcha nu aparea dupa 2 incercari gresite (bug layout pack)
+- **Fix inchidere aplicatie**: aplicatia nu putea fi inchisa din fereastra PIN
+
 ## v1.8.2 (2026)
 - **Fix integritate**: manifest regenerat corect la fiecare build (v1.8/v1.8.1 afisau eroare de coruptie la pornire dupa actualizare)
 - **Actualizare automata**: buton "Actualizeaza automat" in bannerul de update — descarca si instaleaza noua versiune fara a parasi aplicatia
