@@ -1,6 +1,8 @@
-# PRAMGEN — Generator Raport Rezistenta Dispersie Priza de Pamant
+# PRAMGEN - Generator Raport Rezistenta Dispersie Priza de Pamant
 
 **PRAMGEN** este o aplicatie desktop pentru generarea rapoartelor de incercare a rezistentei de dispersie a prizelor de pamant, conform normativelor romanesti **I7-2011**, **PE 116/94** si **1RE-Ip 30/2004**.
+
+**Versiunea curenta: v1.10.2**
 
 ---
 
@@ -29,22 +31,23 @@
 
 Licenta comerciala este legata de hardware-ul masinii sau de contul cloud al utilizatorului.
 
-## Cloud Sync (v1.8+, licenta comerciala)
+## Cloud Sync (v1.9.1+, licenta comerciala)
 
-- Sincronizare baza de date cu **Google Drive** sau **OneDrive**
+- Sincronizare baza de date cu **Google Drive**, **OneDrive** sau **Nextcloud**
+- Toti cei trei provideri pot fi activi simultan
 - Criptare AES-256 a bazei de date inainte de incarcare
 - Licenta cloud valabila pe pana la **10 dispozitive** conectate la acelasi cont
 - Sincronizare automata la pornire si dupa fiecare certificat generat
 
 ## Instalare
 
-Descarca cel mai recent fisier `PRAMGEN_Setup_X.X.exe` din [Releases](../../releases) si ruleaza-l ca administrator.
+Descarca cel mai recent fisier `PRAMGEN_Setup_X.X.X.exe` din [Releases](../../releases) si ruleaza-l ca administrator.
 
 **Cerinte sistem:** Windows 10/11 (64-bit)
 
 ## Actualizari
 
-La fiecare pornire, aplicatia verifica automat versiunile noi pe GitHub. Daca este disponibila o versiune noua, apare un banner cu butonul **"Actualizeaza automat"** — aplicatia descarca instalatorul si porneste actualizarea fara a fi nevoie sa parasiti aplicatia manual.
+La fiecare pornire, aplicatia verifica automat versiunile noi pe GitHub. Daca este disponibila o versiune noua, apare un banner cu butonul **"Actualizeaza automat"** — aplicatia descarca instalatorul si porneste actualizarea (cu elevare UAC corecta).
 
 ## Contact
 
